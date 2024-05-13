@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
         // Load users from JSON file
-        fetch('users.json')
+        fetch('./users.json')
             .then(response => response.json())
             .then(users => {
             // Check if the entered credentials match any user in the JSON
