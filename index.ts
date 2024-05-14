@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
           
           if (user) {
             // Redirect to another page after successful login
-            window.location.href = './files/indexing.html';
+            window.location.href = './files/';
           } else {
             alert('Invalid username or password.');
           }
